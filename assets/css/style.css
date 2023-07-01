@@ -374,8 +374,9 @@ h6 {
 
 #hero h1 {
   margin: 0 0 20px 0;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
+  text-align:left;
   line-height: 56px;
   color: #364146;
 }
@@ -649,6 +650,21 @@ section {
   border-color: #2282ff;
 }
 
+.services .icon-box-yellow .icon i {
+  color: #e3d96d;
+}
+
+.services .icon-box-yellow:hover {
+  border-color: #e3d96d;
+}
+
+.services .icon-box-moov .icon i {
+  color: #cd8af7;
+}
+
+.services .icon-box-moov:hover {
+  border-color: #cd8af7;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -948,8 +964,8 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
-  background: #f4f6f7;
+  padding: 20px 20px 20px 20px;
+  /* background: #f4f6f7; */ 
   position: relative;
   border-radius: 6px;
   position: relative;
