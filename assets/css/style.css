@@ -1657,3 +1657,17 @@ section {
     margin-top: 30px;
 }
 }
+
+@media (max-width:992px){
+  #hero h1{
+    font-size: 19px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width:992px){
+  #hero h2{
+    font-size: 15px;
+    
+  }
+}
